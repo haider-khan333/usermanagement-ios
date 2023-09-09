@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LoginView: View {
+    
+    // MARK: - State variables
     @State private var email = ""
     @State private var password = ""
     
@@ -15,13 +17,7 @@ struct ContentView: View {
     var body: some View {
         GeometryReader{ geometry in
             ZStack{
-                Color.black
-                
-                // MARK: - red color design
-                RoundedRectangle(cornerRadius: 30,style: .continuous)
-                    .foregroundStyle(.linearGradient(colors: [.pink,.red], startPoint: .topLeading, endPoint: .bottomTrailing))
-                    .rotationEffect(.degrees(120))
-                    .offset(y:-geometry.size.height * 0.45)
+//                BackgroundStyle()
                 
                 // MARK: - Welcome message
                 VStack{
@@ -65,8 +61,12 @@ struct ContentView: View {
     }
 }
 
+
+/**
+ Below code is used to preview the design
+ */
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LoginView()
     }
 }
