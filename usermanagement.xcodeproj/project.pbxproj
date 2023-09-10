@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C49616922AACEEA100C2B16E /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616912AACEEA100C2B16E /* SignupView.swift */; };
-		C49616952AACEF2600C2B16E /* BackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616942AACEF2600C2B16E /* BackgroundStyle.swift */; };
+		C49616922AACEEA100C2B16E /* EmailNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616912AACEEA100C2B16E /* EmailNameView.swift */; };
+		C49616952AACEF2600C2B16E /* TopIconViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616942AACEF2600C2B16E /* TopIconViewComponent.swift */; };
 		C49616972AACF51B00C2B16E /* FloatingTextViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616962AACF51B00C2B16E /* FloatingTextViewComponent.swift */; };
+		C496169C2AADE31E00C2B16E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496169B2AADE31E00C2B16E /* User.swift */; };
+		C496169E2AADE37D00C2B16E /* UserSignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496169D2AADE37D00C2B16E /* UserSignupController.swift */; };
+		C49616A02AADEC1F00C2B16E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496169F2AADEC1F00C2B16E /* ContentView.swift */; };
+		C49616A22AADF6F400C2B16E /* ImageButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616A12AADF6F400C2B16E /* ImageButtonComponent.swift */; };
+		C49616A52AAE03D400C2B16E /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616A42AAE03D400C2B16E /* PasswordView.swift */; };
+		C49616A72AAE090A00C2B16E /* TextButtonViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616A62AAE090A00C2B16E /* TextButtonViewComponent.swift */; };
+		C49616A92AAE205300C2B16E /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616A82AAE205300C2B16E /* NavigationCoordinator.swift */; };
+		C49616AB2AAE291400C2B16E /* NavBackButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49616AA2AAE291400C2B16E /* NavBackButtonComponent.swift */; };
 		C4F9600A2AA7BAF60023E336 /* usermanagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F960092AA7BAF60023E336 /* usermanagementApp.swift */; };
 		C4F9600C2AA7BAF60023E336 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F9600B2AA7BAF60023E336 /* LoginView.swift */; };
 		C4F9600E2AA7BAFD0023E336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F9600D2AA7BAFD0023E336 /* Assets.xcassets */; };
@@ -37,9 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C49616912AACEEA100C2B16E /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
-		C49616942AACEF2600C2B16E /* BackgroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundStyle.swift; sourceTree = "<group>"; };
+		C49616912AACEEA100C2B16E /* EmailNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailNameView.swift; sourceTree = "<group>"; };
+		C49616942AACEF2600C2B16E /* TopIconViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopIconViewComponent.swift; sourceTree = "<group>"; };
 		C49616962AACF51B00C2B16E /* FloatingTextViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextViewComponent.swift; sourceTree = "<group>"; };
+		C496169B2AADE31E00C2B16E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C496169D2AADE37D00C2B16E /* UserSignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignupController.swift; sourceTree = "<group>"; };
+		C496169F2AADEC1F00C2B16E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C49616A12AADF6F400C2B16E /* ImageButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonComponent.swift; sourceTree = "<group>"; };
+		C49616A42AAE03D400C2B16E /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		C49616A62AAE090A00C2B16E /* TextButtonViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonViewComponent.swift; sourceTree = "<group>"; };
+		C49616A82AAE205300C2B16E /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		C49616AA2AAE291400C2B16E /* NavBackButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBackButtonComponent.swift; sourceTree = "<group>"; };
 		C4F960062AA7BAF60023E336 /* usermanagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = usermanagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F960092AA7BAF60023E336 /* usermanagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usermanagementApp.swift; sourceTree = "<group>"; };
 		C4F9600B2AA7BAF60023E336 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -80,9 +96,10 @@
 		C496168E2AACED7100C2B16E /* views */ = {
 			isa = PBXGroup;
 			children = (
+				C49616A32AAE039700C2B16E /* RegistrationProcess */,
 				C49616932AACEEFA00C2B16E /* components */,
 				C4F9600B2AA7BAF60023E336 /* LoginView.swift */,
-				C49616912AACEEA100C2B16E /* SignupView.swift */,
+				C496169F2AADEC1F00C2B16E /* ContentView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -90,6 +107,8 @@
 		C496168F2AACEDC600C2B16E /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C496169D2AADE37D00C2B16E /* UserSignupController.swift */,
+				C49616A82AAE205300C2B16E /* NavigationCoordinator.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -97,6 +116,7 @@
 		C49616902AACEDD300C2B16E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				C496169B2AADE31E00C2B16E /* User.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -104,10 +124,22 @@
 		C49616932AACEEFA00C2B16E /* components */ = {
 			isa = PBXGroup;
 			children = (
-				C49616942AACEF2600C2B16E /* BackgroundStyle.swift */,
+				C49616942AACEF2600C2B16E /* TopIconViewComponent.swift */,
 				C49616962AACF51B00C2B16E /* FloatingTextViewComponent.swift */,
+				C49616A12AADF6F400C2B16E /* ImageButtonComponent.swift */,
+				C49616A62AAE090A00C2B16E /* TextButtonViewComponent.swift */,
+				C49616AA2AAE291400C2B16E /* NavBackButtonComponent.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		C49616A32AAE039700C2B16E /* RegistrationProcess */ = {
+			isa = PBXGroup;
+			children = (
+				C49616912AACEEA100C2B16E /* EmailNameView.swift */,
+				C49616A42AAE03D400C2B16E /* PasswordView.swift */,
+			);
+			path = RegistrationProcess;
 			sourceTree = "<group>";
 		};
 		C4F95FFD2AA7BAF60023E336 = {
@@ -298,10 +330,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49616922AACEEA100C2B16E /* SignupView.swift in Sources */,
-				C49616952AACEF2600C2B16E /* BackgroundStyle.swift in Sources */,
+				C49616922AACEEA100C2B16E /* EmailNameView.swift in Sources */,
+				C49616952AACEF2600C2B16E /* TopIconViewComponent.swift in Sources */,
+				C49616A72AAE090A00C2B16E /* TextButtonViewComponent.swift in Sources */,
+				C49616A22AADF6F400C2B16E /* ImageButtonComponent.swift in Sources */,
+				C49616A02AADEC1F00C2B16E /* ContentView.swift in Sources */,
+				C496169C2AADE31E00C2B16E /* User.swift in Sources */,
+				C49616AB2AAE291400C2B16E /* NavBackButtonComponent.swift in Sources */,
+				C49616A52AAE03D400C2B16E /* PasswordView.swift in Sources */,
+				C496169E2AADE37D00C2B16E /* UserSignupController.swift in Sources */,
 				C4F9600C2AA7BAF60023E336 /* LoginView.swift in Sources */,
 				C4F9600A2AA7BAF60023E336 /* usermanagementApp.swift in Sources */,
+				C49616A92AAE205300C2B16E /* NavigationCoordinator.swift in Sources */,
 				C49616972AACF51B00C2B16E /* FloatingTextViewComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
