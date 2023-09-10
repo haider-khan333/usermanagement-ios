@@ -73,7 +73,6 @@ struct EmailName: View {
                             TextButtonViewComponent(action: {
                                 // MARK: - action on button click
                                 
-                                
                                 g_UserController.setName(name: name)
                                 g_UserController.setEmail(email: email)
                                 
